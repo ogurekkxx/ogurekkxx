@@ -124,8 +124,8 @@ function restartGame() {
 restartBtn.addEventListener("click", restartGame);
 
 speedbtn.addEventListener("click", () => {
-    if (enemySpeed < 10 )    {
-    enemySpeed += 0.5; }
+    if (enemySpeed < 20 )    {
+    enemySpeed += 1; }
         enemySize = Math.max(9, enemySize - 9);
         for (let e of enemies) {
             e.speed = enemySpeed;
