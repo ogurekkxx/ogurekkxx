@@ -1,0 +1,23 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 0;
+}
+
+canvas {
+    background-color: #111;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #fff;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 14px;
+}
